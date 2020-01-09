@@ -1,0 +1,56 @@
+/*pencil icon*/
+#adminmenu #menu-pages div.wp-menu-image::before,
+#adminmenu #menu-media div.wp-menu-image::before,
+#adminmenu #menu-posts div.wp-menu-image::before,
+#adminmenu #menu-comments div.wp-menu-image::before,
+#adminmenu #toplevel_page_gf_edit_forms div.wp-menu-image::before {
+    content: '\f464';
+	font-family: dashicons !important;
+    width: 36px;
+    height: 34px;
+	font-size:20px;
+	display:inline-block;
+	text-decoration: inherit;
+	text-transform: none;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/*gear icon*/
+#adminmenu #menu-appearance div.wp-menu-image::before,
+#adminmenu #menu-plugins div.wp-menu-image::before,
+#adminmenu #menu-tools div.wp-menu-image::before,
+#adminmenu #menu-users div.wp-menu-image::before,
+#adminmenu #menu-settings div.wp-menu-image::before,
+#adminmenu #toplevel_page_snippets div.wp-menu-image::before,
+#adminmenu #toplevel_page_edit-post_type-acf-field-group div.wp-menu-image::before,
+#adminmenu #toplevel_page_wpfastestcacheoptions div.wp-menu-image::before,
+#adminmenu #toplevel_page_backwpup div.wp-menu-image::before{
+    content: '\f111' !important;
+    font-family: dashicons !important;
+    width: 36px;
+    height: 34px;
+}
+
+/*hide plugin icon*/
+#adminmenu #toplevel_page_wpfastestcacheoptions .wp-menu-image img{
+	/* display:none !important; */
+}
+#adminmenu #toplevel_page_gf_edit_forms div.wp-menu-image.svg{
+	background-image:none !important;
+}
+
+
+/*separator*/
+#adminmenu li.wp-menu-separator {
+	height: 0px;
+	padding: 0;
+	margin: 3px 0;
+	cursor: inherit;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #484848;
+}
+
+/* GUTENBERG EDITOR
+--------------------------------------------*/

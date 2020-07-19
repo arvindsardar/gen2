@@ -146,3 +146,4 @@ if ( ! function_exists( 'gen2_post_thumbnail' ) ) :
 		endif; // End is_singular().
 	}
 endif;
+

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Main column width */
+.wp-block {
+	max-width: 85%;
+}
+
+/* Width of "wide" blocks */
+.wp-block[data-align="wide"] {
+    max-width: 90%;
+}
+
+/* Width of "full-wide" blocks */
+.wp-block[data-align="full"] {
+    max-width: none;
+}
+
+p.wp-block-paragraph{
+    font-size: 13px;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+/* Lazyblocks */
+.lazyblock {
+    background-color: #EEEEEE;
+    border: solid 1px #BEBEBE;
+    line-height: 1em;
+	background: -o-linear-gradient(#f9f9f9,#eee);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9f9f9",endColorstr="#eeeeee",GradientType=0);
+	box-shadow: 0 1px 1px rgba(0,0,0,.04),inset 0 1px 0 hsla(0,0%,100%,.5);
+	outline: none;
+    border-radius: 2px;
+}
+.lazyblock .lzb-content-title{
+    display: none;
+}
+.lazyblock .lzb-preview-server{
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #757a80;
+    text-transform: uppercase;
+    cursor: pointer;
+}

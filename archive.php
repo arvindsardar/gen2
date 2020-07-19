@@ -10,7 +10,7 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area col">
 		<main id="main" class="site-main">
 
 		<?php if ( have_posts() ) : ?>
@@ -36,7 +36,7 @@ get_header();
 
 			endwhile;
 
-			the_posts_navigation();
+			the_posts_pagination( array( 'mid_size' => 2 ) );
 
 		else :
 
